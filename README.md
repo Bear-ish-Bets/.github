@@ -25,7 +25,7 @@ Demos:
   Demo for functionality of PRAW API
 
 ## Authors
-- Alex ??
+- Alex Yang
 - Chung Lu (did I spell this right??)
 - Michael Lavelle
 - Trevor Westin
