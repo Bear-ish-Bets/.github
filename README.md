@@ -26,7 +26,7 @@ Demos:
 
 ## Authors
 - Alex Yang
-- Chung Lu (did I spell this right??)
+- Chang Lu
 - Michael Lavelle
 - Trevor Westin
 - Alfie Zhang
