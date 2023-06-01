@@ -25,8 +25,8 @@ Demos:
   Demo for functionality of PRAW API
 
 ## Authors
-- Alex Yang
-- Chang Lu
 - Michael Lavelle
+- Chang Lu
 - Trevor Westin
+- Alex Yang
 - Alfie Zhang
