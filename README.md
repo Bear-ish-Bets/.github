@@ -1,14 +1,17 @@
-# Stock Prediction using Elastisearch on r/wallstreetbets
+# Stock Prediction using ElasticSearch on [r/wallstreetbets](https://www.reddit.com/r/wallstreetbets/)
 ## About the Project
 > This project uses Elastisearch on posts from the wallstreetbets. We aim to search text in individual posts, and use a variety of metrics, such as sentiment analysis, to correlate text to desirable or undersirable stocks. This information will be used to guide a user to invest in certain stocks.
+
 ![r/wallstreetbets icon](https://a.thumbs.redditmedia.com/w-gbSE-QjkUuNjq2yPpekzEtN4CXRiL4tTO_XfloH80.png)
 We'll be collecting text data from r/wallstreetsbets using Elastisearch, and saving the sentiment of the text in conjunction with the stock in question. We will draw inferences in this way as part of a stock investment strategy.
 
 ## Reddit API Changes
-> [An Update Regarding Reddit's API](https://www.reddit.com/r/reddit/comments/12qwagm/an_update_regarding_reddits_api/). This policy will be in effect on July 1st, 2023, and will limit free access to the Reddit API.
+> [An Update Regarding Reddit's API](https://www.reddit.com/r/reddit/comments/12qwagm/an_update_regarding_reddits_api/): Effective July 1st, 2023, we will not be able to access the Reddit API for free. Spending money to support API access through PRAW is currently not in the scope of this project.
 
 To adapt, we've opted to collect Reddit data running up to June 2023. PRAW will not be an active part of our Stock Investment Bot. The bot will function more like a wayback machine rather than a bot which can make investments for the future.
 ## Usage
+- Originally, this bot would frequently search through r/wallstreetbets, analyzing posts through stock to post and post to stock processing,  and sentiment analuysis, to make investments in real time.
+- Instead, investments will be made retroactively on posts before July 2023. The bot will not have a live function.
 
 ## Technologies
 
@@ -24,9 +27,11 @@ We use the Alpaca API to directly make stock investments from the bot using imag
 ## Organization
 
 ### Directories:
+Official Bear-ish-Bets-Bot:
+> The action happens here.
 
 Demos:
-> Testing of individual technologies utilized in the sotck investment bot
+> Testing of individual technologies utilized in the sotck investment bot.
 - AlpacaDemo - 
 - ElasticDemo - demo for Fuzzy Search
 - RedditDemo - demo of PRAW API
